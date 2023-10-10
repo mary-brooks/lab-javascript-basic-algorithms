@@ -2,7 +2,7 @@
 
 // 1.1 Create a variable hacker1 with the driver's name.
 
-let hacker1 = 'Brenda';
+const hacker1 = 'Brenda';
 
 // 1.2 Print "The driver's name is XXXX".
 
@@ -10,7 +10,7 @@ console.log(`The driver's name is ${hacker1}`);
 
 // 1.3 Create a variable hacker2 with the navigator's name.
 
-let hacker2 = 'Mary';
+const hacker2 = 'Mary';
 
 // 1.4 Print "The navigator's name is YYYY".
 
@@ -23,8 +23,8 @@ console.log(`The navigator's name is ${hacker2}`);
 // - It seems that the navigator has the longest name, it has XX characters. or
 // - Wow, you both have equally long names, XX characters!.
 
-let driverLength = hacker1.length;
-let navigatorLength = hacker2.length;
+const driverLength = hacker1.length;
+const navigatorLength = hacker2.length;
 
 if (driverLength > navigatorLength) {
   console.log(
@@ -45,7 +45,7 @@ if (driverLength > navigatorLength) {
 // 3.1 Print the characters of the driver's name, separated by space, and in capital letters, i.e., "J O H N".
 
 // Put driver's name in uppercase:
-let driverUpperCase = hacker1.toUpperCase();
+const driverUpperCase = hacker1.toUpperCase();
 
 // Declare and initialise variable for spaced name:
 let driverSpaced = '';
